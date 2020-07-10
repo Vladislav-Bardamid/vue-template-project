@@ -1,0 +1,277 @@
+<div class="desktop-nav__container">
+  <div class="desktop-nav__logo-wrap">
+    <router-link
+      to=""
+      exact
+      aria-current="page"
+      class="desktop-nav__home-link w-nav-brand w--current"
+      style="opacity: 0; display: flex; width: 7rem; height: 90px;"
+    >
+      <img
+        src="https://uploads-ssl.webflow.com/5dea983bcd662e4fc58450cd/5df554fb0730a58e02233a25_logo.png"
+        alt=""
+        class="image-14"
+      />
+    </router-link>
+  </div>
+  <div class="desktopnav__links--right">
+    <a
+      data-w-id="9c5fca27-02c6-98ac-cbe0-e78fd4d15172"
+      href="#"
+      class="desktop-nav__link-wrapper onboarding w-inline-block"
+    >
+      <div class="nav__text-wrap tooltip hide">
+        <div class="nav__text">
+          <span
+            data-w-id="fede9abd-6af9-6c82-9307-3c88a787aeec"
+            class="nav-icon tooltip"
+            ></span
+          ><span class="nav__inner-text">Finish Onboarding</span>
+        </div>
+      </div>
+      <div class="nav__text">
+        <div class="nav-icon onboard">
+          <div class="div-block-339"></div>
+          <div class="div-block-338">
+            <div class="text-block-80">3/4</div>
+          </div>
+        </div>
+        <div>
+          <span class="nav__inner-text"
+            ><strong>Finish Onboarding</strong></span
+          >
+        </div>
+      </div>
+    </a>
+    <div
+      data-delay="0"
+      data-w-id="268cc19c-8878-f131-e277-cb2841b07eb3"
+      class="desktop-nav__dd w-dropdown"
+      style="height: 3.5rem;"
+      role="menu"
+      aria-labelledby="w-dropdown-toggle-0"
+    >
+      <div
+        class="desktop-nav__toggle w-dropdown-toggle"
+        tabindex="0"
+        id="w-dropdown-toggle-0"
+        aria-controls="w-dropdown-list-0"
+        aria-haspopup="menu"
+        style="outline: none;"
+      >
+        <div class="nav__text-wrap">
+          <div class="nav__text">
+            <div class="nav-icon tooltip">
+              <img
+                src="https://uploads-ssl.webflow.com/5dea983bcd662e4fc58450cd/5df278a04bb8c8812aef44a2_profile%20pic.png"
+                alt=""
+                class="desktop-nav__icon"
+              />
+            </div>
+            <div>Profile</div>
+          </div>
+        </div>
+        <img
+          src="https://uploads-ssl.webflow.com/5dea983bcd662e4fc58450cd/5dea983bcd662e4175845165_chevron-dark.png"
+          width="6"
+          alt=""
+          class="image-18"
+          style="
+            transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+              rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            opacity: 0;
+          "
+        />
+      </div>
+      <nav class="accordion2__dropdown w-dropdown-list" id="w-dropdown-list-0">
+        <div class="desktop-nav__dd-list">
+          <a href="/profile/account-info" class="dd-list__link w-dropdown-link"
+            >Account Info</a
+          ><a href="/profile/billing-info" class="dd-list__link w-dropdown-link"
+            >Billing</a
+          ><a
+            href="/profile/social-profiles"
+            class="dd-list__link w-dropdown-link"
+            >Social Profiles</a
+          ><a href="#" class="dd-list__link logout w-dropdown-link">Log Out</a>
+        </div>
+      </nav>
+    </div>
+    <a href="/contact" class="desktop-nav__link-wrapper w-inline-block">
+      <div class="nav__text-wrap tooltip">
+        <div class="nav__text">
+          <span class="nav-icon tooltip"></span
+          ><span class="nav__inner-text">Help</span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <nav role="navigation" class="desktop-nav__links--left w-nav-menu">
+    <router-link
+      to="/"
+      active-class="w--current"
+      aria-current="page"
+      class="desktop-nav__link-wrapper w-inline-block"
+    >
+      <div class="nav__text-wrap tooltip">
+        <div class="nav__text">
+          <span class="nav-icon tooltip"></span
+          ><span class="nav__inner-text">Dashboard</span>
+        </div>
+      </div>
+    </router-link>
+    <div
+      data-delay="0"
+      data-w-id="6cef4c51-325e-cc88-4240-0a2f677dd50f"
+      class="desktop-nav__dd w-dropdown"
+      role="menu"
+      aria-labelledby="w-dropdown-toggle-1"
+    >
+      <div
+        class="desktop-nav__toggle w-dropdown-toggle"
+        tabindex="0"
+        id="w-dropdown-toggle-1"
+        aria-controls="w-dropdown-list-1"
+        aria-haspopup="menu"
+        style="outline: none;"
+      >
+        <div class="nav__text-wrap">
+          <div class="nav__text">
+            <span class="nav-icon tooltip"></span
+            ><span class="nav__inner-text">People</span>
+          </div>
+        </div>
+        <img
+          src="https://uploads-ssl.webflow.com/5dea983bcd662e4fc58450cd/5dea983bcd662e4175845165_chevron-dark.png"
+          width="6"
+          alt=""
+          class="image-18"
+          style="
+            transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+              rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            opacity: 0;
+          "
+        />
+      </div>
+      <nav class="accordion2__dropdown w-dropdown-list" id="w-dropdown-list-1">
+        <div class="desktop-nav__dd-list">
+          <router-link
+            to="/people/all"
+            class="dd-list__link w-dropdown-link"
+            active-class="w--current"
+            >All People</router-link
+          ><router-link
+            to="/people/tasks"
+            class="dd-list__link w-dropdown-link"
+            active-class="w--current"
+            >Tasks</router-link
+          ><router-link
+            to="/people/tags"
+            class="dd-list__link w-dropdown-link"
+            active-class="w--current"
+            >Tags</router-link
+          ><router-link
+            to="/people/settings"
+            active-class="w--current"
+            class="dd-list__link w-dropdown-link"
+            >Settings</router-link
+          >
+        </div>
+      </nav>
+    </div>
+    <router-link
+      to="/messages"
+      class="desktop-nav__link-wrapper w-inline-block"
+      active-class="w--current"
+    >
+      <div class="nav__text-wrap">
+        <div class="nav__text">
+          <span
+            data-w-id="0ffde451-6c1b-fd69-5e01-27e4f30a7086"
+            class="nav-icon tooltip"
+            ></span
+          ><span class="nav__inner-text">Messages (124)</span>
+        </div>
+      </div>
+    </router-link>
+    <div
+      data-delay="0"
+      data-w-id="a7a68e20-9ec1-c59b-00a0-5bc2ddf26a7c"
+      class="desktop-nav__dd w-dropdown"
+      role="menu"
+      aria-labelledby="w-dropdown-toggle-2"
+    >
+      <div
+        class="desktop-nav__toggle w-dropdown-toggle"
+        tabindex="0"
+        id="w-dropdown-toggle-2"
+        aria-controls="w-dropdown-list-2"
+        aria-haspopup="menu"
+        style="outline: none;"
+      >
+        <div class="nav__text-wrap">
+          <div class="nav__text">
+            <span class="nav-icon tooltip"></span
+            ><span class="nav__inner-text">Campaigns</span>
+          </div>
+        </div>
+        <img
+          src="https://uploads-ssl.webflow.com/5dea983bcd662e4fc58450cd/5dea983bcd662e4175845165_chevron-dark.png"
+          width="6"
+          alt=""
+          class="image-18"
+          style="
+            transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+              rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            opacity: 0;
+          "
+        />
+      </div>
+      <nav class="accordion2__dropdown w-dropdown-list" id="w-dropdown-list-2">
+        <div class="desktop-nav__dd-list">
+          <router-link
+            to="/search-linkedin"
+            active-class="w--current"
+            class="dd-list__link w-dropdown-link"
+            >Search LinkedIn</router-link
+          ><router-link
+            to="/linkedin-campaigns/linkedin-campaigns"
+            active-class="w--current"
+            class="dd-list__link w-dropdown-link"
+            >LinkedIn Campaigns</router-link
+          ><router-link
+            to="/email-campaigns/email-campaigns"
+            class="dd-list__link w-dropdown-link"
+            >Email Campaigns</router-link
+          ><router-link
+            to="/social-posting-campaigns/scheduled-posts"
+            active-class="w--current"
+            class="dd-list__link w-dropdown-link"
+            >Social Posting Campaign</router-link
+          >
+        </div>
+      </nav>
+    </div>
+    <router-link
+      to="/appointments"
+      active-class="w--current"
+      class="desktop-nav__link-wrapper w-inline-block"
+    >
+      <div class="nav__text-wrap">
+        <div class="nav__text">
+          <span
+            data-w-id="fd71dff7-7969-6c96-12cd-07d57d44f817"
+            class="nav-icon tooltip"
+            ></span
+          ><span class="nav__inner-text">Calendar</span>
+        </div>
+      </div>
+    </router-link>
+  </nav>
+  <div class="mobile-nav__menu w-nav-button">
+    <div class="mobile-nav__icon w-icon-nav-menu"></div>
+  </div>
+</div>

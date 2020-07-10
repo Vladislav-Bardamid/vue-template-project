@@ -1,0 +1,10 @@
+.container {
+  background-color: #f2f3f3;
+  padding: 1.5rem 2rem;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 2.5rem;
+  grid-template-columns: minmax(48%, 1fr) repeat(auto-fit, minmax(48%, 1fr));
+  grid-template-rows: auto auto auto;
+}

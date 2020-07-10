@@ -1,0 +1,23 @@
+.nav__inner-text {
+    display: block;
+}
+
+.desktop-nav__wrapper:hover {
+    width: 14em !important;
+    transition: 0.3s;
+}
+
+.desktop-nav__wrapper:hover .nav__inner-text {
+    display: block !important;
+}
+
+.accordion2__dropdown {
+    display: none;
+    height: 0;
+}
+
+.desktop-nav__dd:hover .accordion2__dropdown {
+    display: block;
+    height: auto;
+    transition: 0.3s;
+}

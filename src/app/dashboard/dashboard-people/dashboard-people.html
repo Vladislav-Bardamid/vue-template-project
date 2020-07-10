@@ -1,0 +1,77 @@
+<div id="w-node-aa32dbdaf2b7-5545f46a" class="dash-card__container stretch">
+  <div class="div-block-327">
+    <div class="div-block-328 left">
+      <div class="div-block-329">
+        <h3><span class="fa__dash"></span>Messages</h3>
+      </div>
+      <div class="text-block-78">
+        You have
+        <a href="/messages" class="dash__link"
+          ><strong>{{ messages.length }}</strong></a
+        >
+        new messages
+      </div>
+      <div class="div-block-342">
+        <div class="dash-to-do__li" v-for="message in messages">
+          <div>
+            <a href="/messages" class="dash__link"
+              ><strong>{{ message.sender }}</strong></a
+            >
+          </div>
+          <div class="dash-to-do__message">
+            {{ message.text }}
+          </div>
+        </div>
+      </div>
+      <div class="div-block-330">
+        <a href="/messages" class="dash__link">View Messages →</a>
+      </div>
+    </div>
+    <div class="div-block-328">
+      <div class="div-block-329">
+        <h3><span class="fa__dash"></span>Tasks</h3>
+      </div>
+      <div class="text-block-78">
+        You have
+        <a href="/people/tasks" class="dash__link">{{ tasks.length }}</a> tasks
+        due today
+      </div>
+      <div class="div-block-342">
+        <div class="dash-to-do__li" v-for="task in tasks">
+          <div>
+            <a href="/people/tasks" class="dash__link"
+              ><strong>{{ task.userName }}</strong></a
+            >
+          </div>
+          <div class="dash-to-do__message">{{ task.message }}</div>
+        </div>
+      </div>
+      <div class="div-block-330">
+        <a href="/people/tasks" class="dash__link">View Tasks →</a>
+      </div>
+    </div>
+    <div class="div-block-328">
+      <div class="div-block-329">
+        <h3><span class="fa__dash"></span>Calendar</h3>
+      </div>
+      <div class="text-block-78">
+        You have
+        <a href="/appointments" class="dash__link">{{ appointments.length }}</a>
+        appointments today<a href="/appointments"></a>
+      </div>
+      <div class="div-block-342">
+        <div class="dash-to-do__li" v-for="appointment of appointments">
+          <div>
+            <a href="/appointments" class="dash__link"
+              ><strong>{{ appointment.userName }}</strong></a
+            >
+          </div>
+          <div class="dash-to-do__message">{{appointment.startDate | date: 'shortTime'}} - {{appointment.endDate | date: 'shortTime'}}</div>
+        </div>
+      </div>
+      <div class="div-block-330">
+        <a href="/appointments" class="dash__link">View Appointments →</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+{
+  "appointments": [
+    {
+      "appointmentId": 1,
+      "peopleId": 1,
+      "userName": "Josh Hartman",
+      "startDate": "3/9/2008 4:05 PM",
+      "endDate": "3/9/2008 4:05 PM"
+    },
+    {
+      "appointmentId": 1,
+      "peopleId": 1,
+      "userName": "Josh Hartman",
+      "startDate": "3/9/2008 4:05 PM",
+      "endDate": "3/9/2008 4:05 PM"
+    },
+    {
+      "appointmentId": 1,
+      "peopleId": 1,
+      "userName": "Josh Hartman",
+      "startDate": "3/9/2008 4:05 PM",
+      "endDate": "3/9/2008 4:05 PM"
+    }
+  ]
+}

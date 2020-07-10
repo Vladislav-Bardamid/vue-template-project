@@ -1,0 +1,32 @@
+[
+  {
+    "peopleId": 1,
+    "name": "Josh Hartman",
+    "salesStage": 0,
+    "tasksDue": 1,
+    "company": "Company A",
+    "title": "Agent/Broker",
+    "industry": "Financial Services",
+    "location": "Houston, Texas Area"
+  },
+  {
+    "peopleId": 2,
+    "name": "Josh Hartman",
+    "salesStage": 0,
+    "tasksDue": 1,
+    "company": "Company A",
+    "title": "Agent/Broker",
+    "industry": "Financial Services",
+    "location": "Houston, Texas Area"
+  },
+  {
+    "peopleId": 3,
+    "name": "Josh Hartman",
+    "salesStage": 1,
+    "tasksDue": 1,
+    "company": "Company A",
+    "title": "Agent/Broker",
+    "industry": "Financial Services",
+    "location": "Houston, Texas Area"
+  }
+]
